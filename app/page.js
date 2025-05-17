@@ -9,63 +9,63 @@ const data = [
       title: 'Chapter 1: The Awakening',
       image: 'portal-ezgif.com-png-to-webp-converter.webp',
       description:
-         'A green puddle blinked into existence. It wobbled, whispered "Loomo," and the universe shivered.',
+         'A green puddle blinked into existence. It wobbled, whispered "Loono," and the universe shivered.',
       isLocked: false
    },
    {
       title: 'Chapter 2: The Scientist',
       image: 'imgs20-min-jijTmesAFnWUXs2TkR1lzqNdUUWZ3S.webp',
       description:
-         'A green puddle blinked into existence. It wobbled, whispered "Loomo," and the universe shivered.',
+         'A green puddle blinked into existence. It wobbled, whispered "Loono," and the universe shivered.',
       isLocked: true
    },
    {
       title: 'Chapter 3: Cosmic Memory',
       image: 'imgs3-min.webp',
       description:
-         'When Loomo hummed, the walls vanished. Galaxies danced. Aki`s hands shook. You`re not from here, are you?',
+         'When Loono hummed, the walls vanished. Galaxies danced. Aki`s hands shook. You`re not from here, are you?',
       isLocked: true
    },
    {
       title: 'Chapter 4: The Gift',
       image: 'imgs21-min-QuBTgrPQD7W5l8UjJw0Hm5UFsmMgFA.webp',
       description:
-         'Loomo turned into a four-leaf clover. Aki`s luck changed. She wondered: Was it luck… or destiny?',
+         'Loono turned into a four-leaf clover. Aki`s luck changed. She wondered: Was it luck… or destiny?',
       isLocked: true
    },
    {
       title: 'Chapter 5: The Giant',
       image: 'imgs15-min-OHU0A5dyX5ArU8rpN9WWcK0FHw4Qoy.webp',
       description:
-         'Loomo grew tall enough to touch the clouds. Below, people whispered prayers.',
+         'Loono grew tall enough to touch the clouds. Below, people whispered prayers.',
       isLocked: true
    },
    {
       title: 'Chapter 6: The Wanderer',
       image: 'zxczxc3-min-EiNov9igHaZiJn0ARHQ3HavbccVdVN.webp',
       description:
-         'At the cliff`s edge, Loomo stared into the void. Something stared back.',
+         'At the cliff`s edge, Loono stared into the void. Something stared back.',
       isLocked: true
    },
    {
       title: 'Chapter 7: The Waterfall',
       image: 'imgs14-min-AHnC1jtgABDuAD2dUgQjnGOAAYoIkF.webp',
       description:
-         'Loomo melted into the river. The water glowed green. No one dared to drink.',
+         'Loono melted into the river. The water glowed green. No one dared to drink.',
       isLocked: true
    },
    {
       title: 'Chapter 8: The Beam',
       image: 'imgs12-min-a4sGMBDzRjrhfokYYRN6h7y3fCT8WO.webp',
       description:
-         'A light from the sky called Loomo home. It left behind nothing but silence… and questions.',
+         'A light from the sky called Loono home. It left behind nothing but silence… and questions.',
       isLocked: true
    },
    {
       title: 'Chapter 9: The Leap',
       image: 'imgs11-min-ofUlXISjlgd6LPmHeZd88hjGWbmHOi.webp',
       description:
-         'Loomo dove into the black hole, laughing. Some say it`s still out there, humming.',
+         'Loono dove into the black hole, laughing. Some say it`s still out there, humming.',
       isLocked: true
    }
 ];
@@ -96,7 +96,7 @@ export default function Home() {
             <div className='mt-2 mb-4 flex justify-center'>
                <div className='relative w-full max-w-[1000px] h-[128px]'>
                   <img
-                     alt='The Legend of Loomo'
+                     alt='The Legend of Loono'
                      fetchPriority='high'
                      decoding='async'
                      data-nimg='fill'
@@ -111,7 +111,7 @@ export default function Home() {
                         bottom: 0,
                         color: 'transparent'
                      }}
-                     src='header.webp'
+                     src='header.png'
                   />
                </div>
             </div>
@@ -373,7 +373,7 @@ export default function Home() {
                                     className='gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 py-2 w-full h-16 bg-[#4AFF91] text-black hover:bg-[#3DE080] flex items-center justify-between px-4'
                                  >
                                     <span className='text-xl font-bold'>
-                                       Talk with Loomo
+                                       Talk with Loono
                                     </span>
                                     <svg
                                        xmlns='http://www.w3.org/2000/svg'

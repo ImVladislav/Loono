@@ -3,15 +3,15 @@ export const Docs = () => {
       <div className='hidden md:block space-y-4 max-w-[calc(100%-24px)]'>
          <div className='rounded-lg text-card-foreground shadow-sm bg-[#0a1f0a] bg-opacity-80 p-6 border border-[#4AFF91] overflow-y-auto max-h-[calc(100vh-200px)] [&amp;::-webkit-scrollbar]:w-2 [&amp;::-webkit-scrollbar-track]:bg-[#1a2e1a] [&amp;::-webkit-scrollbar-thumb]:bg-[#4AFF91] [&amp;::-webkit-scrollbar-thumb]:rounded-full scrollbar-thin scrollbar-thumb-[#4AFF91] scrollbar-track-[#1a2e1a]'>
             <h1 className='text-[#4AFF91] text-4xl font-bold mb-6'>
-               The Legend of Loomo — An Interactive, Evolving AI Narrative
+               The Legend of Loono — An Interactive, Evolving AI Narrative
             </h1>
             <section className='mb-8'>
                <h2 className='text-[#4AFF91] text-2xl font-bold mb-4'>
                   1. Introduction
                </h2>
                <p className='text-[#a3e9c6] mb-4'>
-                  The Legend of Loomo is an AI-driven, chapter-based interactive
-                  story where users engage with Loomo, a mysterious sentient
+                  The Legend of Loono is an AI-driven, chapter-based interactive
+                  story where users engage with Loono, a mysterious sentient
                   entity, across multiple narrative chapters. Each chapter
                   evolves dynamically based on user interactions and collective
                   inputs across previous chapters. Upon chapter completion, the
@@ -22,7 +22,7 @@ export const Docs = () => {
                <p className='text-[#a3e9c6]'>
                   This whitepaper outlines the system architecture, AI behavior,
                   data flow, and mechanics for implementing the evolving
-                  interactive Loomo experience.
+                  interactive Loono experience.
                </p>
             </section>
             <section className='mb-8'>
@@ -41,7 +41,7 @@ export const Docs = () => {
                            Every chapter contains:
                            <ul className='list-circle list-inside ml-4'>
                               <li>
-                                 Interactive AI responses (Loomo's dialogue).
+                                 Interactive AI responses (Loono's dialogue).
                               </li>
                               <li>Input collection for learning.</li>
                               <li>
@@ -55,7 +55,7 @@ export const Docs = () => {
                      <span className='font-semibold'>AI Learning Engine</span>
                      <ul className='list-disc list-inside ml-4 mt-2'>
                         <li>
-                           Purpose: Adapt Loomo's responses based on user
+                           Purpose: Adapt Loono's responses based on user
                            interactions.
                         </li>
                         <li>
@@ -85,7 +85,7 @@ export const Docs = () => {
                            logic to create a unique final story (epilogue).
                         </li>
                         <li>
-                           Reflects user interactions, decisions, and Loomo's
+                           Reflects user interactions, decisions, and Loono's
                            evolving personality.
                         </li>
                      </ul>
@@ -117,7 +117,7 @@ export const Docs = () => {
                </h4>
                <ul className='list-disc list-inside text-[#a3e9c6] mb-4'>
                   <li>
-                     Prompt-Response Cycle: Users chat with Loomo, asking
+                     Prompt-Response Cycle: Users chat with Loono, asking
                      questions or responding to its dialogue.
                   </li>
                   <li>
@@ -129,7 +129,7 @@ export const Docs = () => {
                <ul className='list-disc list-inside text-[#a3e9c6] ml-4 mb-4'>
                   <li>Chapter 2: User asks, "Where did you come from?"</li>
                   <li>
-                     Chapter 3 Loomo Response (adapted): "I remember someone
+                     Chapter 3 Loono Response (adapted): "I remember someone
                      asking me that before. Maybe it's time I answer... or maybe
                      I like the mystery too much."
                   </li>
@@ -137,7 +137,7 @@ export const Docs = () => {
                <h4 className='text-[#4AFF91] text-lg font-semibold mb-2'>
                   B. Adaptive Behavior
                </h4>
-               <p className='text-[#a3e9c6] mb-2'>Loomo evolves conversationally:</p>
+               <p className='text-[#a3e9c6] mb-2'>Loono evolves conversationally:</p>
                <ul className='list-disc list-inside text-[#a3e9c6] ml-4 mb-4'>
                   <li>It remembers popular questions (most-asked by users).</li>
                   <li>
@@ -146,7 +146,7 @@ export const Docs = () => {
                   </li>
                   <li>
                      It references user-driven themes (e.g., if users focus on
-                     "luck," Loomo may explore that concept deeply in future
+                     "luck," Loono may explore that concept deeply in future
                      chapters).
                   </li>
                </ul>
@@ -165,7 +165,7 @@ export const Docs = () => {
                   </li>
                   <li>
                      Chapter Insights: Insights feed into the next chapter's AI,
-                     influencing Loomo's behavior.
+                     influencing Loono's behavior.
                   </li>
                </ol>
             </section>
@@ -196,10 +196,10 @@ export const Docs = () => {
                   </li>
                </ul>
                <h3 className='text-[#4AFF91] text-xl font-semibold mb-2'>
-                  4.2 Loomo Personality Evolution
+                  4.2 Loono Personality Evolution
                </h3>
                <p className='text-[#a3e9c6] mb-2'>
-                  Based on aggregated data, Loomo evolves:
+                  Based on aggregated data, Loono evolves:
                </p>
                <ul className='list-disc list-inside text-[#a3e9c6] ml-4'>
                   <li>
@@ -207,12 +207,12 @@ export const Docs = () => {
                      ("Someone told me they thought I was lucky…").
                   </li>
                   <li>
-                     Tone Shifts: If users engage positively, Loomo becomes
+                     Tone Shifts: If users engage positively, Loono becomes
                      friendlier. If skeptical, it may grow cryptic.
                   </li>
                   <li>
                      Behavioral Adaptation: Recurring themes (e.g., voids,
-                     galaxies, luck) shape Loomo's narrative focus.
+                     galaxies, luck) shape Loono's narrative focus.
                   </li>
                </ul>
             </section>
@@ -224,7 +224,7 @@ export const Docs = () => {
                   5.1 Concept
                </h3>
                <p className='text-[#a3e9c6] mb-4'>
-                  Upon completion of all chapters, Loomo generates a personalized
+                  Upon completion of all chapters, Loono generates a personalized
                   epilogue:
                </p>
                <ul className='list-disc list-inside text-[#a3e9c6] ml-4 mb-4'>
@@ -240,7 +240,7 @@ export const Docs = () => {
                            expressed).
                         </li>
                         <li>
-                        Loomo's evolved "personality" shaped by the chats.
+                        Loono's evolved "personality" shaped by the chats.
                         </li>
                      </ul>
                   </li>
@@ -282,9 +282,9 @@ export const Docs = () => {
                         </li>
                      </ul>
                      <p className='text-[#4AFF91] italic mt-2 ml-8'>
-                        "Loomo vanished into the void, whispering of luck left
+                        "Loono vanished into the void, whispering of luck left
                         behind. Somewhere, someone found a green clover on their
-                        doorstep and smiled. The void hums, and Loomo remembers
+                        doorstep and smiled. The void hums, and Loono remembers
                         you."
                      </p>
                   </li>
@@ -302,7 +302,7 @@ export const Docs = () => {
                      Frontend (User Interaction):
                      <ul className='list-disc list-inside ml-4 mt-2'>
                         <li>Web interface with chapter-based progression.</li>
-                        <li>AI chat module for engaging Loomo.</li>
+                        <li>AI chat module for engaging Loono.</li>
                      </ul>
                   </li>
                   <li className='mt-2'>
@@ -311,7 +311,7 @@ export const Docs = () => {
                         <li>Chat data collection and storage.</li>
                         <li>NLP engine for theme and pattern extraction.</li>
                         <li>
-                           Context management (for adaptive Loomo behavior).
+                           Context management (for adaptive Loono behavior).
                         </li>
                      </ul>
                   </li>
@@ -336,7 +336,7 @@ export const Docs = () => {
                   7.1 Personalized AI Chat Experience
                </h3>
                <p className='text-[#a3e9c6] mb-4'>
-                  Users feel like Loomo "remembers" their interactions, creating
+                  Users feel like Loono "remembers" their interactions, creating
                   a conversational bond.
                </p>
                <h3 className='text-[#4AFF91] text-xl font-semibold mb-2'>
@@ -350,7 +350,7 @@ export const Docs = () => {
                </h3>
                <p className='text-[#a3e9c6]'>
                   The story concludes uniquely for each user group, reflecting
-                  their collective influence on Loomo.
+                  their collective influence on Loono.
                </p>
             </section>
             <section className='mb-8'>
@@ -378,8 +378,8 @@ export const Docs = () => {
                      "final story" shaped by all interactions.
                   </li>
                   <li>
-                  Loomo Memories Archive: Save key questions and responses to
-                     create a digital Loomo "journal."
+                  Loono Memories Archive: Save key questions and responses to
+                     create a digital Loono "journal."
                   </li>
                </ul>
             </section>
@@ -388,15 +388,15 @@ export const Docs = () => {
                   10. Conclusion
                </h2>
                <p className='text-[#a3e9c6] mb-4'>
-                  The Legend of Loomo is an innovative fusion of interactive
+                  The Legend of Loono is an innovative fusion of interactive
                   storytelling, evolving AI, and collective creativity. By
-                  combining user inputs across chapters, Loomo becomes more than
+                  combining user inputs across chapters, Loono becomes more than
                   just a character—it becomes an evolving, living story. The
-                  final epilogue is not written by Loomo alone but by everyone
+                  final epilogue is not written by Loono alone but by everyone
                   who dared to chat, question, and play.
                </p>
                <p className='text-[#a3e9c6]'>
-                  And somewhere, Loomo will always hum… waiting to be found
+                  And somewhere, Loono will always hum… waiting to be found
                   again.
                </p>
             </section>

@@ -37,7 +37,7 @@ const ChatComponent = ({ setIsChatOpen }) => {
          return updatedHistory;
       });
 
-      const botTypingMessage = { message: 'Loomo is typing...', isUser: false };
+      const botTypingMessage = { message: 'Loono is typing...', isUser: false };
       setChatHistory((prevHistory) => [...prevHistory, botTypingMessage]);
 
       setMessage('');
@@ -87,7 +87,7 @@ const ChatComponent = ({ setIsChatOpen }) => {
       <div className='text-card-foreground shadow-sm bg-[#1a2e1a] bg-opacity-80 border-0 p-6'>
          <div className='flex justify-between items-center mb-4'>
             <h2 className='text-[#4AFF91] text-2xl font-bold'>
-               Talk with Loomo
+               Talk with Loono
             </h2>
             <button
                onClick={() => setIsChatOpen(false)}
@@ -145,7 +145,7 @@ const ChatComponent = ({ setIsChatOpen }) => {
          <form className='flex space-x-2' onSubmit={handleSendMessage}>
             <input
                className='flex-grow h-10 border px-3 py-2 bg-[#243524] border-[#4AFF91] text-white'
-               placeholder='Ask Loomo something...'
+               placeholder='Ask Loono something...'
                value={message}
                onChange={(e) => setMessage(e.target.value)}
             />
