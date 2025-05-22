@@ -117,7 +117,7 @@ const ChatComponent = ({ setIsChatOpen }) => {
                   ) : (
                      <div className='w-10 h-10 rounded-full overflow-hidden relative flex-shrink-0'>
                         <img
-                           alt='Zoog'
+                           alt='Loomo'
                            loading='lazy'
                            width='40'
                            height='40'
