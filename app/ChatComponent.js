@@ -135,7 +135,7 @@ const ChatComponent = ({ setIsChatOpen }) => {
                         entry.isUser ? 'text-white' : 'text-[#4AFF91]'
                      }`}
                   >
-                     {entry.message}
+                     {entry.isUser ? entry.message : entry.message.replace(/^loomo:\s*/i, '')}
                   </div>
                </div>
             ))}
